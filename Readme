@@ -1,0 +1,7 @@
+# Matching Project
+1. Database model definition in sql\schema_sqlite.sql
+1.1 Identify 8 genuine tier-suffix words -> none to remove 
+1.2 Implement manufacturer brand stripping 
+2. matching 
+3. Labelled Dataset for performace measurement
+4. Evaluation + iteration

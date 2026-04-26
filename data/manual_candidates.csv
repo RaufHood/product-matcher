@@ -1,0 +1,101 @@
+id,market,raw_model_name,normalized_model_name,raw_core_components,manufacturer
+1341,EU,FlexPhone Lite Mini SE,FlexPhone Mini SE,Atlas Stack,Nightfall Manufacturing Inc.
+1777,EU,AstraBook Pro,AstraBook Pro,Echo Sync / Coral Shield Shield / Quartz Beam,BrightWave Manufacturing Inc.
+159,EU,SilverSpeaker SE Ultra Edge,SilverSpeaker SE Ultra Edge,Teal Layer,Highland Holdings Inc.
+1497,EU,Echo Pulse Wave Catalyst,Echo Pulse Wave,Echo Pulse Wave,Catalyst Systems Inc.
+1476,EU,Sonic Bridge Aurora,Sonic Bridge,Sonic Bridge,Aurora Industries Inc.
+965,EU,CrownPad Gen SE,CrownPad Gen SE,Coda Sync / Mira Sync,BlueRiver Manufacturing Inc.
+768,EU,CodaNode,CodaNode,Topaz Layer,Aurora Group Inc.
+1642,EU,PearlPad Mini Mini,PearlPad Mini Mini,Orion Pulse,Sunpeak Holdings Inc.
+473,EU,Nova Node Stack Copperline,Nova Node Stack,Nova Node Stack,Copperline Holdings Inc.
+345,EU,Copper Arc Aurora,Copper Arc,Copper Arc,Aurora Industries Inc.
+681,EU,SonicLink Plus Gen,SonicLink Plus Gen,Helio Signal,Copperline Components Inc.
+286,EU,CodaKey Mini,CodaKey Mini,Umbral Core,Glacier Manufacturing Inc.
+1349,EU,ZenithHub Edge Plus,ZenithHub Edge Plus,Ruby Mesh,Glacier Works Inc.
+1843,EU,TealCharge Pro Air,TealCharge Pro Air,Quartz Bridge,DeepField Industries Inc.
+1855,EU,SlateStand Edge,SlateStand Edge,Maple Grid Vault,Highland Group Inc.
+1162,EU,HelioSpeaker Mini Max,HelioSpeaker Mini Max,Argo Grid,BlueRiver Technologies Inc.
+392,EU,CrownBook SE Mini SE,CrownBook SE Mini SE,Echo Engine,Skyforge Electronics Inc.
+1490,EU,AstraCam SE Ultra Edge,AstraCam SE Ultra Edge,Zen Beam,Zenith Holdings Inc.
+1122,EU,OpalSpeaker Mini Edge,OpalSpeaker Mini Edge,Sonic Node Drive,Meadow Manufacturing Inc.
+1853,EU,MintStand Mini SE Air,MintStand Mini SE Air,Sol Signal Grid,DeepField Industries Inc.
+1851,EU,NovaNode Plus Pro Max,NovaNode Plus Pro Max,Sol Signal Grid,DeepField Industries Inc.
+1218,EU,Cinder Sync Aurora,Cinder Sync,Cinder Sync,Aurora Systems Inc.
+1407,EU,Aero Module Arc Glacier,Aero Module Arc,Aero Module Arc,Glacier Labs Inc.
+1573,EU,CodaCam Edge Plus,CodaCam Edge Plus,Mint Bridge Stack,Saffron Systems Inc.
+1118,EU,AzureCase Edge Gen,AzureCase Edge Gen,Jade Layer,Evergreen Group Inc.
+5081,US,AstraWatch Pro Max,AstraWatch Pro Max,Helio Beam,Astra Works Inc.
+10052,US,Argo Dock Nebula,Argo Dock,Argo Dock,Nebula Group Inc.
+3285,US,Atlas Wave Dock Lighthouse,Atlas Wave Dock,Atlas Wave Dock,Lighthouse Works Inc.
+5793,US,GoldenStand Mini SE,GoldenStand Mini SE,Delta Grid,GoldenGate Manufacturing Inc.
+8579,US,Topaz Vector StonebridgFE,Topaz Vector StonebridgFE,Topaz Vector,Stonebridge Systems Inc.
+11345,US,PearlRouter Pro,PearlRouter Pro,Citrine Link,Ironwood Devices Inc.
+3496,US,Mira Signal BrightWave,Mira Signal,Mira Signal,BrightWave Electronics Inc.
+6187,US,Maple Pulse StonebridgTJ,Maple Pulse StonebridgTJ,Maple Pulse,Stonebridge Systems Inc.
+12865,US,Astra Vault 1TB Bundle Zenith,Astra Vault,Astra Vault,Zenith Systems Inc.
+9586,US,Cobalt Core GoldenGate,Cobalt Core,Cobalt Core,GoldenGate Electronics Inc.
+12522,US,Ivory Wave SilverLine,Ivory Wave,Ivory Wave,SilverLine Systems Inc.
+13109,US,Mira Pulse Orion,Mira Pulse,Mira Pulse,Orion Networks Inc.
+4056,US,Azure Node Spark Pinecone,Azure Node Spark,Azure Node Spark,Pinecone Devices Inc.
+10980,US,Cinder Link GoldenGate,Cinder Link,Cinder Link,GoldenGate Electronics Inc.
+11614,US,Auric Frame NovaWorks,Auric Frame,Auric Frame,NovaWorks Components Inc.
+2459,US,Lime Core Lumen,Lime Core,Lime Core,Lumen Manufacturing Inc.
+10357,US,Beryl Hub Catalyst,Beryl Hub,Beryl Hub,Catalyst Devices Inc.
+2438,US,Teal Module Catalyst,Teal Module,Teal Module,Catalyst Industries Inc.
+8056,US,Saffron Vault Lumen,Saffron Vault,Saffron Vault,Lumen Works Inc.
+9752,US,OnyxNode Max Gen,OnyxNode Max Gen,Luna Node,DeepField Systems Inc.
+11928,US,OpalCam Gen / CopperCam Mini / JadeCam Mini / EdgeWatch Pro,OpalCam Gen,Topaz Sense,Astra Networks Inc.
+5313,US,Atlas Layer Lighthouse,Atlas Layer,Atlas Layer,Lighthouse Works Inc.
+8616,US,Frost Edge Lumen,Frost Edge,Frost Edge,Lumen Electronics Inc.
+2995,US,Pearl Arc EchoLabs,Pearl Arc,Pearl Arc,EchoLabs Systems Inc.
+5465,US,Golden Signal Engine Catalyst,Golden Signal Engine,Golden Signal Engine,Catalyst Industries Inc.
+49596,ES,EchoBuds Gen Lite Mini 64GB Starter Kit/SonicNode Gen 64GB Refurbished,EchoBuds Gen Mini,,ElectroPulse Devices LLC
+38769,ES,TopazBuds Air Mini 64GB Refurbished,TopazBuds Air Mini,,Highland Group Inc.
+16629,ES,PulsePad SE 64GB Bundle,PulsePad SE,,Northwind Works Inc.
+42188,ES,SolPhone Edge Plus 512GB Dual‑SIM,SolPhone Edge Plus,,Atlas Manufacturing Inc.
+25081,ES,TopazBuds Air 256GB Bundle,TopazBuds Air,,Highland Holdings Inc.
+44247,ES,AuroraDock Lite Lite 1TB Bundle,AuroraDock,,Starlight Components Inc.
+35992,ES,AuroraWatch Lite 64GB Bundle,AuroraWatch,,Pinecone Components Inc.
+31042,ES,PhotonDrive Plus 1TB Starter Kit/AtlasStand Air Air 64GB Starter Kit,PhotonDrive Plus,,Catalyst Holdings Inc.
+31674,ES,TealDock Pro 1TB Dual‑SIM,TealDock Pro,,ElectroPulse Devices LLC
+43460,ES,BridgeCam Gen Edge 1TB Dual‑SIM,BridgeCam Gen Edge,,Starlight Systems Inc.
+36664,ES,RubyBeam Mini SE 256GB Bundle,RubyBeam Mini SE,,Starlight Systems Inc.
+14107,ES,FlexRouter 128GB Bundle/GraphiteBeam Gen 256GB Refurbished,FlexRouter,,DeepField Industries Inc.
+32118,ES,SonicKey Pro 256GB Dual‑SIM,SonicKey Pro,,NovaWorks Systems Inc.
+32849,ES,TealCharge Max 256GB Starter Kit,TealCharge Max,,Starlight Systems Inc.
+18497,ES,GlacierKey Air 64GB Refurbished/SenseBeam Ultra Mini/SonicBuds Mini,GlacierKey Air,,Windmill Manufacturing Inc.
+19039,ES,MiraDrive Pro 1TB Bundle,MiraDrive Pro,,Windmill Manufacturing Inc.
+36408,ES,TerraDock Max Ultra 64GB Bundle,TerraDock Max Ultra,,Crown Industries Inc.
+26539,ES,SparkCharge Pro 256GB Bundle,SparkCharge Pro,,Arbor Components Inc.
+27180,ES,LumenDock Gen 1TB Refurbished,LumenDock Gen,,Harbor Components Inc.
+18978,ES,NovaLink Pro 256GB Starter Kit/IndigoBeam Air Max 64GB Dual‑SIM,NovaLink Pro,,Catalyst Holdings Inc.
+45572,ES,"GlacierBook Mini Air Plus 512GB Dual‑SIM/PulseNode Air Lite 512GB Refurbished,EchoPhone 128GB Refurbished",GlacierBook Mini Air Plus,,Orion Networks Inc.
+49146,ES,SyncWatch Edge Max 128GB Dual‑SIM,SyncWatch Edge Max,,Starlight Systems Inc.
+36364,ES,OnyxWatch Gen Lite 128GB Starter Kit,OnyxWatch Gen,,Starlight Systems Inc.
+19893,ES,CoreCharge Edge 64GB Refurbished/CodaBuds Mini/SignalBeam Ultra SE/SonicBuds Mini,CoreCharge Edge,,Arbor Components Inc.
+25236,ES,CopperHub Air 512GB Refurbished,CopperHub Air,,Starlight Systems Inc.
+52075,CH,TealCam Gen,TealCam Gen,Sierra Hub,Harbor Systems Inc.
+52300,CH,NebulaBuds Air Mini,NebulaBuds Air Mini,Saffron Arc,Arbor Components Inc.
+52194,CH,HelioKey Mini Edge,HelioKey Mini Edge,Crimson Spark,EchoLabs Group Inc.
+52071,CH,JadeRouter Air Plus 1TB Starter Kit,JadeRouter Air Plus,Crimson Layer,Zenith Components Inc.
+52026,CH,BeamLink Mini Mini SE 1TB Dual‑SIM,BeamLink Mini Mini SE,Sierra Lien,Springboard Components Inc.
+52311,CH,LyraPhone Air,LyraPhone Air,Frost Sync,Windmill Technologies Inc.
+51883,CH,OtalPhone Minz Gen,OtalPhone Minz Gen,Maple Kern Engine,Nightfall Networks Inc.
+52045,CH,CopperCase Plus,CopperCase Plus,Coral Modul Dock and Teal Kernel,Copperline Components Inc.
+52150,CH,NebulaStand SE Air Plus,NebulaStand SE Air Plus,Cedar Stack & Onyx Modul Spark & Zen Modul,Starlight Industries Inc.
+52114,CH,VegaWatch Ultra 256GB Starter Kit,VegaWatch Ultra,Sierra Lien,NovaWorks Devices Inc.
+51999,CH,UmberKey Mini Pro Max,UmberKey Mini Pro Max,Graphite Edge,Clearwater Works Inc.
+52214,CH,UmberPhone Ultra,UmberPhone Ultra,Umber Node,Highland Components Inc.
+52144,CH,HelioKey Lite Mini SE Air,HelioKey Mini SE Air,Teal Drive,Glacier Electronics Inc.
+52030,CH,CodaStand Air Plus Pro,CodaStand Air Plus Pro,Vega Rayo,Saffron Holdings Inc.
+51916,CH,MiraWatch Edge,MiraWatch Edge,Ruby Node Edge + Beryl Rayo,RedStone Networks Inc.
+52224,CH,SyncBeam Max,SyncBeam Max,Saffron Kernel + Coral Lien,Quantum Technologies Inc.
+51987,CH,CopperKey Mini Lite Mini,CopperKey Mini Mini,Cerulean Kern,Meadow Networks Inc.
+51958,CH,AzureCharge Mini Lite RevB,AzureCharge Mini RevB,Magenta Engine Flow,Quantum Works Inc.
+52203,CH,LyraDrive SE,LyraDrive SE,Nimbus Drive,Mountain Industries Inc.
+51917,CH,SenseCase Gen,SenseCase Gen,Ruby Node Edge and Topaz Rayo,Mountain Industries Inc.
+51980,CH,SolCharge Mini Mini SE,SolCharge Mini Mini SE,Opal Kern Mesh,NovaWorks Devices Inc.
+52103,CH,SparkCase Mini Pro,SparkCase Mini Pro,Ruby Flex,Copperline Components Inc.
+52122,CH,OnyxCase Mini Mini SE,OnyxCase Mini Mini SE,Coral Lien,DeepField Industries Inc.
+51955,CH,HarborBeam Edge,HarborBeam Edge,Coda Vector,Harbor Holdings Inc.
+52104,CH,AtlasNode Pro,AtlasNode Pro,Sierra Hub,SilverLine Group Inc.

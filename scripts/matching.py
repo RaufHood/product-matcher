@@ -8,7 +8,12 @@ import sqlite3
 
 from aliases import resolve_component
 from bundles import split_bundle
-from cleaning import normalize_manufacturer, split_components
+from cleaning import (
+    normalize_manufacturer,
+    split_components,
+    strip_spec_tokens,
+    strip_manufacturer_suffix,
+)
 from db import upsert_name_entity
 
 
@@ -42,6 +47,12 @@ def run_matching_pipeline(conn: sqlite3.Connection) -> None:
         model_parts = split_bundle(raw_model)
         match_type = "bundle_part" if len(model_parts) > 1 else "direct"
 
+        # Challenge #1 + #5: strip spec tokens and manufacturer suffix from each part
+        normalized_parts = [
+            strip_manufacturer_suffix(strip_spec_tokens(part), raw_manufacturer)
+            for part in model_parts
+        ]
+
         conn.execute(
             """
             UPDATE source_products
@@ -52,7 +63,7 @@ def run_matching_pipeline(conn: sqlite3.Connection) -> None:
             """,
             (
                 manufacturer_id,
-                model_parts[0],
+                normalized_parts[0],
                 " | ".join(parsed_components) or None,
                 source_product_id,
             ),
@@ -60,9 +71,7 @@ def run_matching_pipeline(conn: sqlite3.Connection) -> None:
 
         # Upsert one canonical model per bundle part
         model_ids: list[int] = []
-        for part in model_parts:
-            # Challenge #5 (TODO): detect "component_name + manufacturer_suffix" pattern
-            # e.g. "Atlas Fabric Kernel BlueRiver" → strip known manufacturer suffix
+        for part in normalized_parts:
             model_id = upsert_name_entity(conn, "models", "canonical_model_name", part)
             model_ids.append(model_id)
             conn.execute(
