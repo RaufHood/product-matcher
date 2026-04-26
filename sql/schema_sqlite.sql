@@ -1,5 +1,17 @@
 -- SQLite-compatible schema for local development
 
+PRAGMA foreign_keys = OFF;
+
+DROP TABLE IF EXISTS model_components;
+DROP TABLE IF EXISTS source_product_components;
+DROP TABLE IF EXISTS source_product_models;
+DROP TABLE IF EXISTS component_aliases;
+DROP TABLE IF EXISTS source_products;
+DROP TABLE IF EXISTS models;
+DROP TABLE IF EXISTS manufacturers;
+DROP TABLE IF EXISTS components;
+DROP TABLE IF EXISTS markets;
+
 PRAGMA foreign_keys = ON;
 
 CREATE TABLE IF NOT EXISTS markets (

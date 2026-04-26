@@ -112,6 +112,8 @@ def get_unmatched_candidates(
               JOIN markets m1 ON sp1.market_id = m1.id
               JOIN markets m2 ON sp2.market_id = m2.id
               WHERE m1.market_code != m2.market_code
+                AND spm1.match_type != 'bundle_part'
+                AND spm2.match_type != 'bundle_part'
               UNION
               SELECT DISTINCT sp2.id
               FROM source_product_models spm1
@@ -121,6 +123,8 @@ def get_unmatched_candidates(
               JOIN markets m1 ON sp1.market_id = m1.id
               JOIN markets m2 ON sp2.market_id = m2.id
               WHERE m1.market_code != m2.market_code
+                AND spm1.match_type != 'bundle_part'
+                AND spm2.match_type != 'bundle_part'
           )
         ORDER BY RANDOM()
         LIMIT ?
