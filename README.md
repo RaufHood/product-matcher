@@ -73,13 +73,13 @@ This will:
 ### Step 2 — Run the fuzzy matching pass
 
 ```bash
-python scripts/fuzzy_match.py --algo name_comp_mfr --threshold 0.78
+python scripts/fuzzy_match.py --algo name_comp_mfr --threshold 0.70
 ```
 
 This adds a second tier of approximate links on top of exact matches. Use `--dry-run` to preview coverage without writing to the database:
 
 ```bash
-python scripts/fuzzy_match.py --algo name_comp_mfr --threshold 0.78 --dry-run
+python scripts/fuzzy_match.py --algo name_comp_mfr --threshold 0.70 --dry-run
 ```
 
 ### Step 3 — Generate the validation UI (optional)
@@ -228,7 +228,7 @@ score = 0.55 × name_sim + 0.30 × component_sim + 0.15 × manufacturer_sim
 
 - **name_sim:** `token_sort_ratio` from rapidfuzz — sorts tokens before comparing, which handles minor word-order variation without being overly permissive.
 - **component_sim:** `token_set_ratio` on the normalized component string — appropriate here because component order does not carry meaning.
-- **manufacturer_sim:** `1.0` if manufacturer IDs match, `0.5` if manufacturer name similarity ≥ 0.6, else `0.0`.
+- **manufacturer_sim:** `1.0` if extracted brand tokens match (case-insensitive), else `0.0`.
 
 Pairs above the threshold are written as `match_type = 'fuzzy'` rows into `source_product_models`.
 
@@ -252,17 +252,16 @@ Three named configurations are available via `--algo`:
 
 ### Threshold selection
 
-The default threshold is **0.78**, selected by a dry-run sweep across the range 0.60–0.80:
+The default threshold is **0.70**, selected by a dry-run sweep across the range 0.65–0.80 after switching to `token_sort_ratio`:
 
 | Threshold | Estimated fuzzy links | Coverage |
 |---|---|---|
-| 0.65 | ~18,000 | ~43 % |
-| 0.70 | ~16,500 | ~39 % |
-| 0.75 | ~15,200 | ~36 % |
-| **0.78** | **~14,677** | **~35 %** |
-| 0.80 | ~13,100 | ~31 % |
+| 0.65 | ~24,200 | ~61 % |
+| **0.70** | **~16,437** | **~41 %** |
+| 0.78 | ~3,476 | ~15 % |
+| 0.83 | ~3,788 | ~15 % |
 
-0.78 was chosen as the conservative end of the range: coverage still meaningfully extends exact-match results without visually introducing many obviously wrong links (verified via the validation UI). A proper labeled dataset would sharpen this decision — see [To-Do](#to-do).
+0.70 was chosen as the balance point: coverage meaningfully extends exact-match results, and the stricter `token_sort_ratio` scorer prevents the subset false positives (e.g. `SolStand Mini` matching `SolStand Mini SE`) that made higher thresholds with the old scorer necessary. Verified via the validation UI. A proper labeled dataset would sharpen this decision — see [To-Do](#to-do).
 
 ### Blocking
 
@@ -306,8 +305,8 @@ Key tables:
 | — Spain | 38,108 |
 | — Switzerland | 442 |
 | Canonical model entities created | — |
-| Exact-match cross-market links | ~22 % coverage |
-| Fuzzy-match additional links (threshold 0.78) | ~14,677 estimated (~35 % total coverage) |
+| Exact-match cross-market links | ~12 % coverage |
+| Fuzzy-match additional links (threshold 0.70) | ~16,437 (~41 % total coverage) |
 | Canonical components | 608 |
 
 ---
